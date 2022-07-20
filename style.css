@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ccc;
+    height: 4vh;
+}
+
+nav .title {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    flex-basis: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
